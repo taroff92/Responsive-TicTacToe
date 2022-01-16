@@ -1,0 +1,17 @@
+
+
+
+
+              0   1   2
+var arr = [ ['x','x','0'],
+              0   1   2
+            ['0','x','x'],
+              0   1   2
+            ['x','0','x']
+            ]
+
+ for(let i=0;i<arr.length;i++){
+     for(let j=0;j<i;j++){
+         if(arr[i][j])
+     }
+ }

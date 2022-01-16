@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customizable Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<h3>
+    Tic Tac Toe
+</h3>
+<a href="#" id="btn" onclick="clearFunc()">CLEAR FIELDS</a>
+<a href="#" onclick="openMenu()" id="btn">CHANGE SETTINGS</a>
+
+
+
+
+<body>
+    <div class="winner">
+        <h2>Victory!</h2>
+        <a onclick="restart()" id="btn" href="#">TRY AGAIN</a>
+    </div>
+    <div class="content">
+        <div class="menu">
+            <form action="" class="">
+                <h2>Choose a size</h2>
+                <div class="inner">
+                    <input type=number min=3 max=50>
+                    <button type="submit" class="apply">Apply</button><br>
+                    <button onclick="closeMenu()" type="reset" class="reset">EXIT</button>
+                </div>
+            </form>
+        </div>
+        <div id="game">
+
+        </div>
+    </div>
+    <footer>
+        <h3>Created By Taron M. <br>
+            <i class="fab fa-linkedin">
+                <a href="https://www.linkedin.com/in/taron-muradov-699676163/">
+                    <p>CONNECt</p>
+                </a></i>
+        </h3>
+
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
